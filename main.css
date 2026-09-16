@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Alkalami);
+@import url(https://fonts.googleapis.com/css?family=Times+New+Roman);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+body {
+  margin:0;
+  padding:0;
+  background-color:rgb(255, 150, 150)
+}
+
+h1 {
+  font-family: 'Alkalami';
+  background: rgba(0, 0, 0, 0.7);
+  color: rgba(214, 28, 28, 0.918);
+  font-size: 80px;
+  text-decoration: underline;
+  text-align: center;
+  padding: 36px;
+
+}
+
+p{
+font-family:'Times New Roman';
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  margin-top: 0;  
+  text-align: center;
+}
+
+
+div {
+  background-image: url(image/hero_main-RmpkXGRWnFcRgQ9aZ2eSB2.jpg);
+  padding: 160px 0;
+  margin-bottom: 40px;
+  background-size: cover;
+}
+
+h2 {
+  background-image: url(image/banhtet.jpg);
+  background-size: cover;
+  font-family: 'Alkalami';
+  color: rgba(214, 28, 28, 0.918);
+  font-size: 130px;
+  text-decoration: underline;
+  text-align: center;
+  padding: 36px;
+}
+
+
+
+h3 {
+  font-family:'Playfair Display';
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-top: 0;
+  text-align: left;
+}
+
+
+h4 {
+  background-image: url(image/culture.jpg);
+  font-family: 'Alkalami';
+  background-size: cover;
+  color: rgb(214, 28, 28, 0.918);
+  font-size: 100px;
+  text-align: center;
+}
+
+
+h5 {
+  background-image: url(image/halongbay.jpg);
+  font-family: 'Alkalami';
+  color: rgba(214, 28, 28, 0.918);
+  font-size: 100px;
+  text-align: center;
+  padding: 36px;
+  background-size: cover;
+}
+
+h6 {
+  font-family: 'TimesNewRoman';
+  color: rgba(0, 0, 0, 0.918);
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  background-size: cover;
+}
+middle {
+  text-align: center;
+}
+bold {
+  font-style: bold;
+}
+
+
+h7 {
+font-family: 'Alkalami';
+  color: rgba(0, 0, 0, 0.918);
+  font-size: 20px;
+  text-align: left;
+  padding: 30px;
+  background-size: cover;
+}
+
+
+
+
+
+
+img {
+  margin: 20px 0;        
+  vertical-align: middle;
+  border-radius: 200px; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ac0000;
+}
+
+ul li {
+  float: left;
+  border-right:1px solid #bbbbbb;
+}
+
+ul li:last-child {
+  border-right: none;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+ul li a.active {
+  background-color: #04AA6D;
+}
